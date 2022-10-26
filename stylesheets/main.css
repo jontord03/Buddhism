@@ -30,7 +30,7 @@ header .parallax-background figure img {
 
 header .parallax-background h1 {
     position: absolute; 
-    top: calc(6rem + 6vh); 
+    top: calc(4.5rem + 4.5vh); 
     left: calc(1rem + 1vw);
     color: white; 
     padding: calc(0.5rem + 0.5vw);
@@ -75,7 +75,7 @@ aside {
 .wrapper {
     display: grid; 
     grid-template-columns: 2fr 1fr; 
-    grid-template-rows: calc(43rem + 43vh); 
+    grid-template-rows: 100%; 
 } 
 
 main {

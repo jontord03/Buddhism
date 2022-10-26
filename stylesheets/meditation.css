@@ -39,7 +39,7 @@ header .parallax-background figure img {
 
 header .parallax-background h1 {
     position: absolute;
-    top: calc(5.5rem + 3vh); 
+    top: calc(3.5rem + 3vh);  
     font-size: calc(1.5rem + 2vw); 
     margin-left: calc(0.5rem + 0.2vw);
     color: white;  
@@ -89,7 +89,7 @@ article div {
 /* FOOTER STYLE */
 
 footer {
-    background-color: cornsilk; 
+    background-color: snow; 
 }
 
 footer ul {
