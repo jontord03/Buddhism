@@ -1,0 +1,43 @@
+/* NAV BAR */
+
+nav {
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 0; 
+}
+
+nav button {
+    display: inline-block; 
+    background-color: floralwhite; 
+    width: 25%; 
+    font-size: calc(0.6rem + 1vw); 
+    border: 0px; 
+    border-bottom: calc(0.5rem + 0.5vw) solid tan; 
+}
+
+nav button:hover {
+    background-color: oldlace; 
+}
+
+nav button a {
+    display: block; 
+    padding: calc(0.8rem + 1vw); 
+    font-size: calc(1rem + 0.8vw);
+    color: initial; 
+    text-decoration: initial;
+}
+
+/* PARALLAX BACKGROUND */
+
+.parallax-background {
+    width: 100%; 
+    height: calc(20rem + 4vw); 
+}
+
+h1 {
+    text-align: center; 
+    margin-top: calc(8rem + 4vw); 
+    font-size: calc(3rem + 2vw); 
+    letter-spacing: calc(0.3rem + 0.3vw);
+}

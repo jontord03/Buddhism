@@ -1,0 +1,120 @@
+/* GENERAL STYLES */
+
+html, body, figure, img, nav, ul {
+    margin: 0; 
+    padding: 0; 
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+
+body {
+    background-color: oldlace; 
+}
+
+/* HEADER IMAGE */
+
+header .parallax-background {
+    height: calc(10rem + 14vh); 
+}
+
+header .parallax-background figure {
+    height: calc(10rem + 14vh); 
+    background-color: black; 
+}
+
+header .parallax-background figure img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    opacity: 0.5; 
+}
+
+header .parallax-background h1 {
+    position: absolute;
+    top: calc(5.5rem + 3vh);   
+    font-size: calc(1.5rem + 2vw); 
+    margin-left: calc(0.5rem + 0.2vw);
+    color: white;  
+}
+
+/* MAIN LAYOUT */
+
+/* INLINE BLOCK (Fallback) */
+
+main {
+    overflow: auto; 
+}
+
+main .sermon-img {
+    width: calc(3rem + 25vw);  
+    height: calc(3rem + 25vw);
+    float: left; 
+    border-radius: calc(0.3rem + 0.5vw); 
+    background-color: powderblue;
+    margin: 0;
+    margin-right: calc(1rem + 1.5vw); 
+    margin-bottom: calc(1rem + 1vw); 
+}
+
+main .sermon-img img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+main .monks-img {
+    width: calc(3rem + 25vw);  
+    height: calc(3rem + 25vw);
+    float: right; 
+    border-radius: calc(0.3rem + 0.5vw); 
+    background-color: powderblue;
+    margin: 0;
+    margin-right: calc(0.3rem + 0.5vw); 
+    margin-left: calc(0.3rem + 0.5vw); 
+    margin-top: calc(0.5rem + 1vw); 
+    margin-bottom: calc(1rem + 1vw);
+}
+
+main .monks-img img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+main {
+    margin: calc(1rem + 0.3vw); 
+}
+
+.sermon {
+    margin-bottom: calc(1rem + 1vh); 
+    overflow: auto;  
+}
+
+.monks {
+    overflow: auto; 
+}
+
+/* TEXT */
+
+.sermon .sermon-text {
+    font-size: calc(1rem + 1vw); 
+}
+
+.monks .monks-text {
+    font-size: calc(1rem + 1vw); 
+    margin-top: calc(0.4rem + 1vh); 
+}
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: cornsilk; 
+}
+
+footer ul {
+    padding: calc(1rem + 1vw); 
+    list-style-type: none; 
+}
+
+footer ul::first-line {
+    font-style: italic; 
+}

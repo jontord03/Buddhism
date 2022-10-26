@@ -1,0 +1,102 @@
+/* GENERAL STYLES */
+
+html, body, figure, img, nav, ul {
+    margin: 0; 
+    padding: 0; 
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+
+body {
+    background-color: oldlace; 
+}
+
+h2 {
+    margin-left: calc(0.5rem + 1vw); 
+    font-size: calc(1.3rem + 1.3vw); 
+}
+
+p1 {
+    font-size: calc(1rem + 1vw); 
+}
+
+/* HEADER IMAGE */
+
+header .parallax-background {
+    height: calc(10rem + 14vh); 
+}
+
+header .parallax-background figure {
+    height: calc(10rem + 14vh); 
+    background-color: black; 
+}
+
+header .parallax-background figure img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    opacity: 0.5; 
+}
+
+header .parallax-background h1 {
+    position: absolute;
+    top: calc(5.5rem + 3vh); 
+    font-size: calc(1.5rem + 2vw); 
+    margin-left: calc(0.5rem + 0.2vw);
+    color: white;  
+}
+
+/* MAIN LAYOUT */
+
+.sign-wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: calc(10rem + 10vh);
+    gap: calc(0.4rem + 0.4vw); 
+}
+
+article div {
+    margin-left: calc(0.5rem + 1vw);
+}
+
+/* IMAGE */
+
+article div figure {
+    background-color: mintcream; 
+    border: calc(0.2rem + 0.2vw) solid tan;
+    border-radius: calc(0.2rem + 0.2vw);
+}
+
+article .sign-wrapper {
+    margin-left: calc(0.2rem + 0.2vw); 
+    margin-right: calc(0.2rem + 0.2vw); 
+}
+
+article figure:hover {
+    box-shadow: calc(0.2rem + 0.2vw) calc(0.2rem + 0.2vw) calc(0.2rem + 0.2vw)
+    lightslategray; 
+}
+
+/* TEXT */
+
+article div {
+    margin-right: calc(1rem + 1vw); 
+}
+
+.vipashana {
+    margin-bottom: calc(1rem + 1vh); 
+}
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: cornsilk; 
+}
+
+footer ul {
+    padding: calc(1rem + 1vw); 
+    list-style-type: none; 
+}
+
+footer ul::first-line {
+    font-style: italic; 
+}
