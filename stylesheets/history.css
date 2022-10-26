@@ -64,6 +64,19 @@ main {
     margin-top: calc(1rem + 1vw); 
 }
 
+main div h2 {
+    font-size: calc(1.3rem + 1.3vw); 
+    color: white; 
+}
+
+@media (hover:hover) {
+    main div h2 {
+        margin: 0; 
+        font-size: 0; 
+        opacity: 0; 
+    }
+}
+
 main figure {
     /* border: calc(0.2rem + 0.2vw) solid goldenrod;  */
     /* border-radius: calc(0.3rem + 0.3vw);  */
@@ -78,15 +91,15 @@ main figure:hover {
     background: cornsilk; 
 }
 
+main figure:hover div {
+    opacity: 1; 
+}
+
 main figure div {
     color: black; 
     padding: 10px; 
     font-size: calc(0.8rem + 0.8vw); 
     opacity: 0; 
-}
-
-main figure:hover div {
-    opacity: 1; 
 }
 
 main figure div p1 {
