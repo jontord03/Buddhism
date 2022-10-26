@@ -22,8 +22,8 @@ nav button:hover {
 
 nav button a {
     display: block; 
-    padding: calc(0.8rem + 1vw); 
-    font-size: calc(1rem + 0.8vw);
+    padding: calc(0.5rem + 0.6vw); 
+    font-size: calc(0.5rem + 0.6vw);
     color: initial; 
     text-decoration: initial;
 }

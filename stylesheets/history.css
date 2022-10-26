@@ -46,12 +46,20 @@ set margins between them as well as the indiv. blocks
 
 /* GRID LAYOUT */
 
+/*
 main {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: calc(15rem + 15vh) calc(15rem + 15vh)
     calc(15rem + 15vh) calc(15rem + 15vh); 
-    /* gap: calc(0.2rem + 0.2vw);  */
+    gap: calc(0.2rem + 0.2vw); 
+    margin: calc(3rem + 4vw);
+    margin-top: calc(1rem + 1vw); 
+}*/
+
+main {
+    display: flex; 
+    flex-wrap: wrap; 
     margin: calc(3rem + 4vw);
     margin-top: calc(1rem + 1vw); 
 }
@@ -61,6 +69,7 @@ main figure {
     /* border-radius: calc(0.3rem + 0.3vw);  */
     margin: calc(0.3rem + 0.3vw); 
     background-size: cover; 
+    flex: calc(8rem + 8vw); 
 }
 
 main figure:hover {
